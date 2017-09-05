@@ -1,0 +1,18 @@
+.flex-basis-200 {
+  flex-basis: 200px;
+}
+
+.flex-basis-600 {
+  flex-basis: 600px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  font-size: 30px;
+  border-width: 1px;
+  border-style: solid;
+}

@@ -1,0 +1,33 @@
+.align-content1 {
+  align-content: flex-start;
+}
+
+.align-content2 {
+  align-content: flex-end;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+}
+
+.container1 {
+  width: 170px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.container2 {
+  width: 170px;
+  height: 300px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+p {
+  border-width: 1px;
+  border-style: solid;
+}

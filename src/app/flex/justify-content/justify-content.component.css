@@ -1,0 +1,32 @@
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.baseline {
+  justify-content: baseline;
+}
+
+.flex {
+  display: flex;
+}
+
+p {
+  border-style: solid;
+  border-width: 1px;
+}

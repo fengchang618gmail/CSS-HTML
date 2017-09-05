@@ -1,0 +1,42 @@
+.center {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.baseline {
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.flex-end {
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.stretch {
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.flex {
+  display: flex;
+}
+
+p {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-25 {
+  font-size: 25px;
+}
+
+.container {
+  height: 200px;
+  border-style: solid;
+  border-width: 1px;
+}

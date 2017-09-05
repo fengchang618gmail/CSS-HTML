@@ -1,0 +1,18 @@
+.wrap {
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+}
+
+p {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.container {
+  width: 120px;
+  border-width: 1px;
+  border-style: solid;
+}

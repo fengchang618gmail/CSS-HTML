@@ -1,0 +1,17 @@
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.column {
+  height: 500px;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+p {
+  border-style: solid;
+  border-width: 1px;
+}

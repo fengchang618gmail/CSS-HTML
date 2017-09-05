@@ -1,0 +1,41 @@
+<div class="flex">
+  <div>
+    <h4>container attributes:</h4>
+    <nav>
+      <a routerLink="flex-direction" routerLinkActive="active">flex-direction</a>
+      <a routerLink="flex-wrap" routerLinkActive="active">flex-wrap</a>
+      <a routerLink="flex-flow" routerLinkActive="active">flex-flow</a>
+      <a routerLink="justify-content" routerLinkActive="active">justify-content</a>
+      <a routerLink="align-items" routerLinkActive="active">align-items</a>
+      <a routerLink="align-content" routerLinkActive="active">align-content</a>
+    </nav>
+</div>
+
+  <div>
+    <h4>item attributes:</h4>
+    <nav>
+      <a routerLink="order" routerLinkActive="active">order</a>
+      <a routerLink="align-self" routerLinkActive="active">align-self</a>
+      <a routerLink="flex-grow" routerLinkActive="active">flex-grow</a>
+      <a routerLink="flex-shrink" routerLinkActive="active">flex-shrink</a>
+      <a routerLink="flex-basis" routerLinkActive="active">flex-basis</a>
+      <a routerLink="flex" routerLinkActive="flex">flex</a>
+    </nav>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+<br>
+
+Notice:
+<ul>
+  <li>when the flex-direction is a column, justify-content changes to the vertical and align-items to the horizontal.</li>
+  <li>Any container can be specified as a flex layout.</li>
+  <li>The float, clear, vertical-align attributes in child element would not work after the layout is set to flex.</li>
+</ul>
+
+references
+<ul>
+  <li>Try A game for learning CSS flexbox <a href="http://flexboxfroggy.com/">Flexbox Forggy</a></li>
+  <li>Read the grammmer for CSS flexbox <a href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html">Flex grammer</a></li>
+</ul>

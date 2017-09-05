@@ -1,0 +1,24 @@
+<h3>align-self: flex-start | flex-end | center | baseline | stretch</h3>
+Allows a single item to have an alignment that is not the same as other items and can override the align-items attribute.
+<br>
+The default value is auto, which means it is equal to: <br>-the parent-element's align-items attribute, <br>
+-stretch if there is no parent element.
+<br>
+<br>
+
+display: flex;<br>align-items: flex-start;
+<div class="container align-items flex">
+  <p class="align-self">1<br>align-self: flex-end</p>
+  <p>2</p>
+  <p>3</p>
+</div>
+<br>
+<br>
+
+display: flex;
+<div class="container flex">
+  <p class="align-self">1<br>align-self: flex-end</p>
+  <p>2</p>
+  <p>3</p>
+</div>
+

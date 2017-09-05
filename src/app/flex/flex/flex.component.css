@@ -1,0 +1,16 @@
+.flex-for-item-auto {
+  flex: auto;
+}
+
+.flex-for-item-none {
+  flex: none;
+}
+
+.flex-for-container {
+  display: flex;
+}
+
+p {
+  border-style: solid;
+  border-width: 1px;
+}
